@@ -1,0 +1,43 @@
+{
+   "web3": [
+                 "https://decrypt.co/feed",
+                 "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+                 "https://cointelegraph.com/rss/tag/altcoin",
+                 "https://cointelegraph.com/rss/tag/bitcoin",
+                 "https://cointelegraph.com/rss/tag/blockchain",
+                 "https://cointelegraph.com/rss/tag/ethereum",
+                 "https://cointelegraph.com/rss/tag/litecoin",
+                 "https://cointelegraph.com/rss/tag/regulation",
+                 "https://bitcoinmagazine.com/.rss/full/",
+                 "https://cryptopotato.com/feed/",
+                 "https://cryptocurrencynews.com/technology/feed/",
+                 "https://cryptocurrencynews.com/business/feed/",
+                 "https://cryptocurrencynews.com/daily-news/ethereum-news/feed/",
+                 "https://cryptocurrencynews.com/daily-news/bitcoin-news/feed/",
+                 "https://cryptocurrencynews.com/daily-news/crypto-news/feed/",
+                 "https://cryptocurrencynews.com/icos/ico-news/feed/",
+                 "https://cryptocurrencynews.com/info/blockchain-101/feed/",
+                 "https://cryptocurrencynews.com/info/ethereum-101/feed/",
+                 "https://cryptocurrencynews.com/info/bitcoin-101/feed/",
+                 "https://cryptocurrencynews.com/info/feed/",
+                 "https://news.bitcoin.com/feed/",
+                 "https://www.cryptoglobe.com/rss/feed.xml",
+                 "https://crypto.news/feed/",
+                 "https://dailyhodl.com/feed/",
+                 "https://coingape.com/feed/",
+                 "https://ambcrypto.com/feed/",
+                 "https://beincrypto.com/feed/",
+                 "https://fintechnews.ph/feed/"
+    ],
+   "cybersecurity": [
+                 "https://www.bleepingcomputer.com/feed/",
+                 "https://www.darkreading.com/rss.xml",
+                 "https://www.securityweek.com/feed/",
+                 "https://feeds.feedburner.com/TheHackersNews",
+                 "https://threatpost.com/feed/",
+                 "https://www.securitymagazine.com/rss/15",
+                 "https://www.infosecurity-magazine.com/rss/news/",
+                 "https://www.secureworks.com/rss?feed=research",
+                 "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+   ]
+}
