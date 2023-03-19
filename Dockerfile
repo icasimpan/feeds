@@ -5,6 +5,13 @@ FROM python:alpine3.17
 COPY entrypoint.sh /entrypoint.sh
 COPY requirements.txt /requirements.txt
 
+RUN mkdir /conf
+COPY conf/feed-input.json /conf/feed-input.json
+COPY feedlist.py /feedlist.py
+
 RUN pip install -r requirements.txt
+RUN python feedlist.py > /web3-feeds.md
+RUN cat /web3-feeds.md
+
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
 ENTRYPOINT ["/entrypoint.sh"]
