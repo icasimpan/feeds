@@ -1,15 +1,10 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  web3-feed:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Backup and replace web3-feed.md
     steps:
-      - name: Hello world action step
-        id: hello
+      - name: Create the web3-feed.md markdown
+        id: web3-feed-creation
         uses: icasimpan/feeds@master
-        with:
-          who-to-greet: 'Mona the Octocat'
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
