@@ -10,8 +10,3 @@ jobs:
       - name: Docker Build
         id: dockerbuild
         uses: icasimpan/feeds@master
-        #with:
-        #  who-to-greet: 'Mona the Octocat'
-      # Use the output from the `hello` step
-      #- name: Get the output time
-      #  run: echo "The time was ${{ steps.hello.outputs.time }}"
