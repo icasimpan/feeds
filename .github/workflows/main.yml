@@ -3,7 +3,7 @@ on:
         branche: [develop-*]
 
 jobs:
-  Build web3-feed:
+  build_web3_feed:
     runs-on: ubuntu-latest
     name: Build web3-feed
     steps:
