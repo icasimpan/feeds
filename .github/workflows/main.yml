@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Build web3-feed
     steps:
-      - name: Hello world action step
-        id: hello
+      - name: Docker Build
+        id: dockerbuild
         uses: icasimpan/feeds@master
-        with:
-          who-to-greet: 'Mona the Octocat'
+        #with:
+        #  who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+      #- name: Get the output time
+      #  run: echo "The time was ${{ steps.hello.outputs.time }}"
