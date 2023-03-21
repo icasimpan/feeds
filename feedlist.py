@@ -66,7 +66,7 @@ header()
 current_source=""
 next_source=""
 
-config_file=os.path.dirname(__file__) + "conf/feed-input.json"
+config_file=os.path.dirname(__file__) + "/conf/feed-input.json"
 jsonKeys = getInputKeys(config_file)
 
 for i in jsonKeys:
