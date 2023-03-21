@@ -5,6 +5,7 @@
 ##                  in different feeds
 ##    * add top cves? for different sofwares (e.g. python, golang, rust etc)
 
+import os
 import json
 import feedparser
 import tldextract
@@ -65,7 +66,7 @@ header()
 current_source=""
 next_source=""
 
-config_file="conf/feed-input.json"
+config_file=os.path.dirname(__file__) + "conf/feed-input.json"
 jsonKeys = getInputKeys(config_file)
 
 for i in jsonKeys:
