@@ -14,4 +14,4 @@ RUN python feedlist.py > /web3-feeds.md
 RUN cat /web3-feeds.md
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT [python]
