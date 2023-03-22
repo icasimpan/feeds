@@ -9,9 +9,15 @@ jobs:
       ## NOTE: https://github.com/actions/checkout/issues/24#issuecomment-525547275
       - uses: actions/checkout@master
         with:
-          name: icasimpan/ismael.casimpan.com.git
+          name: Checkout icasimpan/ismael.casimpan.com.git
           repository: icasimpan/ismael.casimpan.com.git
           ref: refs/heads/master
+      - name: Check content of earlier checkout
+        run: |
+          pwd
+          ls -l
+          ls -l ismael.casimpan.com*
+
       - name: Docker Build
         id: dockerbuild
         uses: icasimpan/feeds@master
