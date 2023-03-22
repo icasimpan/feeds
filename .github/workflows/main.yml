@@ -10,6 +10,7 @@ jobs:
       - uses: actions/checkout@master
         with:
           name: icasimpan/ismael.casimpan.com.git
+          repository: icasimpan/ismael.casimpan.com.git
           ref: refs/heads/master
       - name: Docker Build
         id: dockerbuild
