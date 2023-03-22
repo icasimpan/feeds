@@ -11,12 +11,14 @@ jobs:
         with:
           name: Checkout icasimpan/ismael.casimpan.com.git
           repository: icasimpan/ismael.casimpan.com.git
+          path: ./ismael.casimpan.com
           ref: refs/heads/master
       - name: Check content of earlier checkout
         run: |
           pwd
           ls -l
           ls -l ismael.casimpan.com*
+          cd ismael.casimpan.com; git remote -v; git branch
 
       - name: Docker Build
         id: dockerbuild
