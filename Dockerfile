@@ -11,4 +11,4 @@ COPY feedlist.py /home/icasimpan/feedlist.py
 RUN python /home/icasimpan/feedlist.py > /home/icasimpan/web3-feeds.md
 RUN cat /home/icasimpan/web3-feeds.md
 
-ENTRYPOINT [python]
+#ENTRYPOINT [python]
